@@ -24,3 +24,12 @@ switch ($personneAge) {
     {$_ -le 45} {Write-Host 'en pleine maturité'; break }
     Default {Write-Host 'en pleine serénité'}
 }
+
+$villes = "Toronto","Mississauga","Scarborough","Brampton"
+
+for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
+    $villes[$i]
+}
+
+clear-host
+"{0}" -F ($villes.Count % 2)  
