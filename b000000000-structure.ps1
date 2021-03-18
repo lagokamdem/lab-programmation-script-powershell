@@ -14,6 +14,7 @@
 [String]$personneNom = "Alice"
 [Int]$personneAge = 35
 
+
 Write-Host "Bonjour $personneNom, tu as $personneAge ans. "
 
 # Test sur l'age de la personne
